@@ -1,0 +1,100 @@
+# Assessing Driver Response to Blue Flashing Lights for Speed Management in Freeway Work Zones: A Driving Simulator Study in Mexico
+
+**Juan Daniel Olivares-Herrera¹, Antonio Hurtado-Beltran²*, Nelio Pastor-Gómez³ and Rafael Soto-Espitia⁴**
+
+¹ School of Civil Engineering, Universidad Michoacana de San Nicolás de Hidalgo; juan.olivares@umich.mx  
+² School of Civil Engineering, Universidad Michoacana de San Nicolás de Hidalgo; antonio.hurtado@umich.mx  
+³ School of Civil Engineering, Universidad Michoacana de San Nicolás de Hidalgo; npastor@umich.mx  
+⁴ School of Civil Engineering, Universidad Michoacana de San Nicolás de Hidalgo; rsoto@umich.mx  
+
+\* Correspondence: antonio.hurtado@umich.mx
+
+---
+
+## Abstract
+
+Effective speed management in freeway work zones is essential for improving driver safety, particularly where temporary traffic control requires substantial speed reductions. Conventional yellow flashing lights are widely used to enhance work zone visibility; however, their effectiveness may diminish due to driver habituation. Blue flashing lights have emerged as a promising alternative, although their influence on driver behavior remains insufficiently understood.
+
+This study evaluates driver responses to blue flashing lights using a first-person driving simulator integrating the traffic microsimulation platform SUMO with the 3D visualization capabilities of Unity. Two experimental scenarios were evaluated: (1) conventional yellow flashing lights and (2) experimental blue flashing lights, both mounted on temporary traffic control devices within the transition area. The simulated environment replicates a work zone on the Maravatío–Zapotlanejo (MEX-015D) toll freeway in Mexico, where the speed limit decreases from 110 to 60 km/h. Fifty-one licensed drivers experienced both scenarios under controlled geometric, operational, and environmental conditions.
+
+Behavioral measures, including speed profiles, acceleration, deceleration, and lane-changing maneuvers, were recorded and analyzed. Results indicate that blue flashing lights produced consistently lower operating speeds than conventional yellow lights, with the greatest effects observed in the advance warning and transition areas, where speed reductions reached 9.3 and 8.3 km/h, respectively.
+
+This study provides the first simulator-based evaluation of blue flashing lights in multilane freeway work zones in Mexico, offering controlled experimental evidence supporting their potential application as a perceptual speed management treatment in developing countries.
+
+## Keywords
+
+Work zone; blue light; driving behavior; driving simulator; freeway; speed.
+
+---
+
+## Repository contents
+
+This repository contains the supplementary data, data-processing scripts, statistical analyses, survey materials, and figures associated with the driving simulator study.
+
+### 1. Driving simulator data and processed datasets
+
+- `lane_change_data.xlsx` — Lane-changing data.
+- `lane_change_data_participant.xlsx` — Lane-changing data organized by participant.
+- `mean_acceleration_data_participant.xlsx` — Mean acceleration data by participant.
+- `mean_deceleration_data_participant.xlsx` — Mean deceleration data by participant.
+- `mean_speed_data_participant.xlsx` — Mean speed data by participant.
+- `Merged_Driving_Simulator_Participant_Data.xlsx` — Merged driving simulator dataset by participant.
+- `Table_descritive_statistics.xlsx` — Descriptive statistical results.
+- `Wilcoxon_Results.xlsx` — Results of the Wilcoxon statistical tests.
+- `participants_raw_data.zip` — Compressed raw participant data.
+
+### 2. Python scripts
+
+The following scripts support data processing, statistical analysis, and survey analysis:
+
+- `Wilcoxon_Test.py` — Statistical analysis using the Wilcoxon test.
+- `acceleration_data_processing.py` — Acceleration data processing.
+- `deceleration_data_processing.py` — Deceleration data processing.
+- `lane_change_data_processing.py` — Lane-changing data processing.
+- `speed_data_processing.py` — Speed data processing.
+- `survey_plots.py` — Generation of survey-related plots.
+- `survey_perception.py` — Analysis of survey responses related to perception.
+- `survey_profile.py` — Analysis of participant profile information.
+
+### 3. Survey data
+
+- `survey_data.xlsx` — Dataset containing survey responses.
+
+### 4. Figures
+
+The repository includes the figures generated or used in the study:
+
+- `Figure_boxplot_speed_reduction.png`
+- `Figure_lane_change_headmap.png`
+- `Figure_perception.png`
+- `Figure_profile.png`
+- `Figure_scenarios.png`
+- `Figure_simulator.png`
+- `Figure_site.png`
+- `Figure_speed_CDF.png`
+- `Figure_workz_zone_components.png`
+- `Figure_work_zone_schematic.png`
+- `Figure_work_flow.png`
+
+---
+
+## Study overview
+
+The study was conducted using a first-person driving simulator that combines SUMO traffic microsimulation with Unity 3D visualization. The experimental design compared driver responses to conventional yellow flashing lights and experimental blue flashing lights in a simulated freeway work zone on the MEX-015D toll freeway in Mexico.
+
+A total of 51 licensed drivers participated in both experimental scenarios. The analysis focused on operating speed, acceleration, deceleration, and lane-changing maneuvers under controlled experimental conditions.
+
+## Purpose of this repository
+
+The purpose of this repository is to provide supplementary research materials supporting the study, including datasets, processing scripts, statistical results, survey information, and figures, to facilitate transparency and reproducibility of the reported analyses.
+
+## Publication information
+
+**Journal:** To be specified upon publication.  
+**Academic Editor:** To be assigned.  
+**Received:** To be completed.  
+**Revised:** To be completed.  
+**Accepted:** To be completed.  
+**Published:** To be completed.
+
+**Copyright:** © 2026 by the authors. Submitted for possible open access publication under the terms and conditions of the Creative Commons Attribution (CC BY) license.
