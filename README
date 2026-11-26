@@ -77,7 +77,8 @@ The repository includes the figures generated or used in the study:
 - `Figure_work_flow.png`
 
 ---
-
+Added supplementary study files, including speed validation logs and profiles (`speed_validation.zip`), 50m-interval mean speed spreadsheets (`mean_speed_data_participant_50m*.xlsx`), the Unity3D flashing light C# script (`flashing_light_script_unity3d.cs`), the participant control questionnaire (`Cuestionario Luz Azul Destellante.pdf`), and the informed consent protocol (`Consentimiento Informado.pdf`)[cite: 1, 2, 4, 5].
+-----
 ## Study overview
 
 The study was conducted using a first-person driving simulator that combines SUMO traffic microsimulation with Unity 3D visualization. The experimental design compared driver responses to conventional yellow flashing lights and experimental blue flashing lights in a simulated freeway work zone on the MEX-015D toll freeway in Mexico.
